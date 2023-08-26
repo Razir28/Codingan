@@ -34,12 +34,12 @@ body{
 .formContainer input {
   margin-bottom: 10px;
   padding: 8px;
-  border: 1px solid #adadad;
+  border: 1.5px solid;
   border-radius: 4px;
 }
 
 .formContainer input:hover {
-  border: 1px solid #818181;
+  border: 1.5px solid #007bff;
 }
 
 .formContainer button {
@@ -53,5 +53,5 @@ body{
 }
 
 .formContainer button:hover {
-  background-color: #006ce0;
+  background-color: #006cdf;
 }
