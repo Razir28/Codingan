@@ -17,6 +17,18 @@ const userData = {
     Password: "razir280606",
     Access: "Limited",
   },
+
+  bimoswp: {
+    Username: "bswp77",
+    Password: "bimsen2000",
+    Access: "Limited",
+  },
+
+  raflid: {
+    Username: "kourven",
+    Password: "raflimargad",
+    Access: "Limited",
+  },
 };
 
 function loginBtn() {
