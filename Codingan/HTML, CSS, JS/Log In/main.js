@@ -9,14 +9,14 @@ document.addEventListener("DOMContentLoaded", function () {
       rajwaaNY: {
         username: "razir28",
         password: "admin",
-        namaAsli: "Rajwaa NY",
+        nama: "Rajwaa NY",
         email: "rajwaa@contoh.com",
       },
 
       bimoSenoWP: {
         username: "bswp",
         password: "bswp123",
-        namaAsli: "Bimo Seno WP",
+        nama: "Bimo Seno WP",
         email: "bimosen@contoh.com",
       },
     };

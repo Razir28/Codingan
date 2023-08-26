@@ -1,20 +1,25 @@
-import time
+import time  # Untuk menghitung waktu
 
-def looping(ax, bx):
-    start = time.time()
+
+def testLoop(ax, bx):  # Fungsi bernama 'testLoop'
+
+    start = time.time()  # Mencatat waktu awal
 
     for a in range(ax):
-      print(bx)
+        print(bx)
 
-    stop = time.time()
-    duration = (stop - start) * 1000
-    print("Waktu yang dibutuhkan: ", duration, "ms")
+    stop = time.time()  # Mencatat waktu akhir
+    duration = (stop - start) * 1000  # Menghitung durasi dalam milidetik
+    print("Waktu proses: ", duration, "ms")  # Menampilkan waktu proses
 
-def main():
-    pesan_loop = input("Masukkan pesan ke dalam loop: ")
-    jmlh_loop = int(input("Masukkan jumlah loop: "))
 
-    looping(jmlh_loop, pesan_loop)
+def main():  # Fungsi main (utama)
+
+    pesanLoop = input("Masukkan pesan ke dalam loop: ")
+    jmlhLoop = int(input("Masukkan jumlah loop: "))
+
+    testLoop(jmlhLoop, pesanLoop)  # Memanggil fungsi 'testLoop'
+
 
 if __name__ == "__main__":
     main()

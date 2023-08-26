@@ -1,33 +1,33 @@
 #include <iostream>
 #include <string>
-#include <chrono> //Untuk menghitung waktu
+#include <chrono> // Untuk menghitung waktu
 using namespace std;
 using namespace chrono;
-void looping(int ax, string bx)
+void testLooping(int ax, string bx) // Fungsi bernama 'testLoop'
 {
-  auto start = high_resolution_clock::now(); //Mencatat waktu awal
-  
+  auto start = high_resolution_clock::now(); // Mencatat waktu awal
+
   for (int a = 0; a < ax; a++)
   {
-    cout<<bx<<endl;
+    cout << bx << endl;
   }
-  
-  auto stop = high_resolution_clock::now(); //Mencatat waktu akhir
-  auto duration = duration_cast<milliseconds>(stop - start); //Menghitung durasi dalam milidetik
-  cout<<"Waktu yang dibutuhkan: "<<duration.count()<<" ms"<<endl;
+
+  auto stop = high_resolution_clock::now();                     // Mencatat waktu akhir
+  auto duration = duration_cast<milliseconds>(stop - start);    // Menghitung durasi dalam milidetik
+  cout << "Waktu proses: " << duration.count() << "ms" << endl; // Menampilkan waktu proses
 }
 int main()
 {
-  int jmlh_loop;
-  string pesan_loop;
+  int jmlhLoop;
+  string pesanLoop;
 
-  cout<<"Masukkan pesan ke dalam loop: ";
-  getline(cin, pesan_loop);
+  cout << "Masukkan pesan ke dalam loop: ";
+  getline(cin, pesanLoop);
 
-  cout<<"Masukkan jumlah loop: ";
-  cin>>jmlh_loop;
+  cout << "Masukkan jumlah loop: ";
+  cin >> jmlhLoop;
 
-  looping(jmlh_loop, pesan_loop);
-  
+  testLooping(jmlhLoop, pesanLoop); // Memanggil fungsi 'testLoop'
+
   return 0;
 }

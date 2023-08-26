@@ -1,27 +1,27 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
-body{
+body {
   background-color: #fff;
   color: rgb(15, 15, 15);
   transition: background-color 0.8s, color 0.8s;
 }
 
-.darkMode-css{
+.darkMode-css {
   background-color: rgb(15, 15, 15);
   color: #fff;
   transition: background-color 0.8s, color 0.8s;
 }
 
-header{
+header {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.content{
+.content {
   border-style: solid;
   border-radius: 5px;
   max-width: 45%;
@@ -35,28 +35,28 @@ header{
   flex-direction: column;
 }
 
-.content img{
+.content img {
   margin-top: 12px;
   max-width: 100%;
 }
 
-.darkMode-btn-div{
+.darkMode-btn-div {
   margin: auto;
   max-width: fit-content;
 }
 
-.darkMode-btn-div button{
+.darkMode-btn-div button {
   border: none;
   font-size: x-large;
   cursor: pointer;
   background: none;
 }
 
-.sticky-footer{
+.sticky-footer {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   padding: 10px 0;
-  text-align: center;;
+  text-align: center;
 }
