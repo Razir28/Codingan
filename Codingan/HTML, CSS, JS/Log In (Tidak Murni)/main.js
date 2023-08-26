@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const loginButton = document.getElementById("login-btn");
 
   loginButton.addEventListener("click", function () {
-    let username = document.getElementById("username").value;
-    let password = document.getElementById("password").value;
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
 
     const userData = {
       rajwaaNY: {
