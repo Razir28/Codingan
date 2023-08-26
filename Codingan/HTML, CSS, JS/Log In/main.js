@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         username: "bswp",
         password: "bswp123",
         nama: "Bimo Seno WP",
-        email: "bimosen@contoh.com",
+        email: "bimoseno@contoh.com",
       },
     };
 
