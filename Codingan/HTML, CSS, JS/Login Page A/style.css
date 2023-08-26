@@ -4,11 +4,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
   background-color: rgb(15, 15, 15);
   color: #fff;
 }
 
+/* FORM CONTAINER CSS AWAL */
 .formContainer {
   margin-top: 14%;
   margin-left: auto;
@@ -55,3 +56,20 @@ body{
 .formContainer button:hover {
   background-color: #006cdf;
 }
+/* FORM CONTAINER CSS AKHIR */
+
+/* ANNOUNCE CONTAINER CSS AWAL */
+.announceContainer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  cursor: default;
+}
+/* ANNOUNCE CONTAINER CSS AKHIR */
