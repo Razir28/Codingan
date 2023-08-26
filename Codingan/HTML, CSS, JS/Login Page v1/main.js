@@ -3,12 +3,20 @@ const userData = {
   admin: {
     Username: "admin",
     Password: "admin123",
+    Access: "Full",
   },
 
   global: {
     Username: "global",
     Password: "global123",
+    Access: "Limited",
   },
+
+  razir: {
+    Username: "razir28",
+    Password: "razir280606",
+    Access: "Limited",
+  }
 };
 
 function loginBtn() {
