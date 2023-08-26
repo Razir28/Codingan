@@ -6,18 +6,25 @@ document.addEventListener("DOMContentLoaded", function () {
     const password = document.getElementById("password").value;
 
     const userData = {
-      rajwaaNY: {
-        username: "razir28",
-        password: "admin",
-        nama: "Rajwaa Nazir Y",
-        email: "rajwaa@contoh.com",
+      Admin: {
+        Username: "admin",
+        Password: "1",
+        Nama: "admin",
+        "Alamat Email": "",
       },
 
-      bimoSenoWP: {
-        username: "bswp",
-        password: "bswp123",
-        nama: "Bimo Seno WP",
-        email: "bimoseno@contoh.com",
+      RajwaaNazirYatim: {
+        Username: "razir",
+        Password: "rajwaa28",
+        Nama: "Rajwaa Nazir Yatim",
+        "Alamat Email": "rajwaa@contoh.com",
+      },
+
+      BimoSenoWidaytmanuPutra: {
+        Username: "bswp",
+        Password: "bswp1",
+        Nama: "Bimo Seno Widyatmanu Putra",
+        "Alamat Email": "bimoseno@contoh.com",
       },
     };
 
@@ -25,8 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     for (const key in userData) {
       if (
-        userData[key].username === username &&
-        userData[key].password === password
+        userData[key].Username === username &&
+        userData[key].Password === password
       ) {
         cariUser = userData[key];
         break;
@@ -60,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     table.appendChild(tbody);
     table.classList.add("user-table");
 
-    const container = document.querySelector(".container");
+    const container = document.querySelector(".form-container");
     container.appendChild(table);
   }
 });
