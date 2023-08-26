@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
       rajwaaNY: {
         username: "razir28",
         password: "admin",
-        nama: "Rajwaa NY",
+        nama: "Rajwaa Nazir Y",
         email: "rajwaa@contoh.com",
       },
 
