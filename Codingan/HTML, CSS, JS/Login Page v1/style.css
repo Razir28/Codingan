@@ -7,12 +7,11 @@
 .formContainer {
   border-style: solid;
   max-width: fit-content;
-  margin-top: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  padding: 26px;
 }
 
-.formContainer h1{
+.formContainer h1 {
   text-align: center;
   margin-bottom: 18px;
 }
