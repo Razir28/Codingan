@@ -27,7 +27,7 @@ const userData = {
   raflid: {
     Username: "kourven",
     Password: "raflimargad",
-    Access: "Limited",
+    Access: "Special",
   },
 };
 
