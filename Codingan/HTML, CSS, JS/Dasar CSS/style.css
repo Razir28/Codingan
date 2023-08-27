@@ -25,18 +25,19 @@ body {
   margin-bottom: 14px;
 }
 
-.link {
+.link-container {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
 }
 
-.link a {
+.link {
   text-decoration: underline;
+  font-weight: bold;
   color: #ff0000;
 }
 
-.link a:hover {
+.link:hover {
   color: #ff2828;
 }
 
